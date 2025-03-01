@@ -1,0 +1,26 @@
+.page-container {
+    width: 90%;
+    max-width: 800px;
+    min-height: 120vh; /* Long page effect */
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    position: relative;
+  }
+  
+  @media (max-width: 768px) {
+    .page-container {
+      width: 95%;
+      padding: 15px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .page-container {
+      width: 98%;
+      padding: 10px;
+    }
+  }
+  

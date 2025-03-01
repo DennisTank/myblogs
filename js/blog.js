@@ -1,6 +1,6 @@
 const params = new URLSearchParams(window.location.search);
 const blogId = params.get("id");
-console.log(blogId);
+
 if (blogId) {
     fetch(`posts/${blogId}.md`)
         .then(response => response.ok ? response.text() : "Post not found.")
