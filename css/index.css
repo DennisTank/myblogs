@@ -1,3 +1,15 @@
 body{
-    background-color: rgb(50, 50, 50);
+    background-color: #282828;
+    align-items: center;
+    color: #ffffff;
+}
+.header{
+    margin-bottom: 15px;
+    border-radius: 15px;
+    border-color: #FF4733;
+}
+.list-container{
+    margin: 0 15px 0 15px;
+    border-radius: 15px;
+    border-color: #FF4733;
 }
