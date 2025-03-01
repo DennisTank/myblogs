@@ -4,6 +4,12 @@ body{
     color: #ffffff;
 }
 
+hr {
+    border: none;
+    height: 2px;
+    background-color:#FF4733;
+}
+
 .page-container {
     width: 90%;
     max-width: 800px;
